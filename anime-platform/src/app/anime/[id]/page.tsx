@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
 import { motion } from 'framer-motion';
-import { Star, Calendar, Clock, TV, Bookmark, Heart, Share2, Play } from 'lucide-react';
+import { Star, Calendar, Clock, v, Bookmark, Heart, Share2, Play } from 'lucide-react';
 import { Navbar } from '@/components/layout/Navbar';
 import { animeApi } from '@/lib/api';
 import type { Anime } from '@/types';
